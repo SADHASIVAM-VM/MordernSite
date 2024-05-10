@@ -1,0 +1,22 @@
+.nav ul li:hover{
+    color:rgb(205, 5, 255);
+    cursor: pointer;
+}
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    transition: background-color 0.5s ease;
+  }
+  
+  .blurred {
+    background-color: rgba(255, 255, 255, 0.8); /* Add your blurred background color */
+  }
+  
+  .nav-container.mobile-menu-open {
+    height: 100vh; /* Set the height to full viewport height */
+    overflow-y: auto; /* Add vertical scroll when content overflows */
+  }
+  

@@ -1,0 +1,15 @@
+
+.header .animate_y {
+    animation: bounce 4s linear infinite;
+  }
+@keyframes bounce {
+    0% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
