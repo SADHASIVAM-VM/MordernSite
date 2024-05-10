@@ -1,10 +1,10 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect } from "react";
 import { navbarData } from "../../DataForPage/dummyData";
 import logo from "../../assets/images/logo.svg";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
-  const theme = "light";
+  
   const [scroll, setScroll] = useState(false);
   const [isOpended, setIsOpended] = useState(false);
   const handleScroll = () => {
